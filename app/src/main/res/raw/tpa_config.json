@@ -1,4 +1,5 @@
 {
   "name": "Display Text",
-  "description": "Input text and display it on the glasses."
+  "description": "Input text and display it on the glasses.",
+  "version": "1.0.1"
 }
