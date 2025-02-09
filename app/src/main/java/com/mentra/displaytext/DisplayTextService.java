@@ -33,8 +33,7 @@ public class DisplayTextService extends SmartGlassesAndroidService {
     }
 
     @Override
-    public void onCreate() {
-        super.onCreate();
+    public void setup() {
         augmentOSLib = new AugmentOSLib(this);
 
         transcribeLanguageCheckHandler = new Handler(Looper.getMainLooper());
